@@ -8,19 +8,18 @@ class Solution {
         Map<Integer, String> fizzBuzzMap = new HashMap<>();
         fizzBuzzMap.put(3, "Fizz");
         fizzBuzzMap.put(5, "Buzz");
-
         List<String> answerList = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
-            StringBuilder sb = new StringBuilder();
+            String stringToReplaceIntegerWith = "";
             for (Map.Entry<Integer, String> entry : fizzBuzzMap.entrySet()) {
                 if (i % entry.getKey() == 0) {
-                    sb.append(entry.getValue());
+                    stringToReplaceIntegerWith += entry.getValue();
                 }
             }
-            if (sb.length() == 0) {
-                sb.append(i);
+            if (stringToReplaceIntegerWith.equals("")) {
+                stringToReplaceIntegerWith += String.valueOf(i);
             }
-            answerList.add(sb.toString());
+            answerList.add(String.valueOf(stringToReplaceIntegerWith));
         }
         return answerList;
     }
