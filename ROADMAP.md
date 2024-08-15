@@ -2,10 +2,10 @@ https://neetcode.io/roadmap
 
 # Arrays & Hashing
 ## Prerequisites
-- Dynamic Arrays: [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/)
+- Dynamic Arrays: [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/) (/)
 - Hash Usage:
-    - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
-    - [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
+    - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) (/)
+    - [1. Two Sum](https://leetcode.com/problems/two-sum/description/) (/)
     - [146. LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 - Hash Implementations
     - ...
